@@ -1,0 +1,9 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static final double price {
+		return dollar * bought;
+	}
+
+}

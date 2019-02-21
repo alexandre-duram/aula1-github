@@ -1,0 +1,21 @@
+package Program;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class application {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("How many rooms will be rented? ");
+		
+		System.out.println();
+		System.out.print("Rent #1: %nName: %nEmail: %n Room: %nRoom: ");
+		
+		sc.close();
+	}
+
+}

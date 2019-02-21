@@ -1,0 +1,27 @@
+package Program;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Retangle;
+
+public class ProrgamRetangulo {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner src = new Scanner(System.in);
+		
+		Retangle rect = new Retangle();
+		System.out.println("Enter rectangle width and height: ");
+		
+		System.out.println("AREA = " + rect);
+		
+		System.out.println("PERIMETER = " + rect);
+		
+		System.out.println("PERIMETER = " + rect);
+		
+		System.out.println("DIAGONAL = " + rect);
+		
+	}
+
+}
